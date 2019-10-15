@@ -1,0 +1,32 @@
+1.Poner comentarios al princio del programa
+
+Programa: nombre_del_progrma.extension
+Propósito:
+Autor:
+Fecha: (creacion, modificacion)
+Observaciones:
+
+
+MOV C, hello
+MOV C, A
+
+
+IN - 
+OUT - para la salida del teclado o raton
+solo se puede sacar en modo supervisor
+
+registro A - acumulador, es el unico para la entrada y la salida
+
+
+IRQMASK - decimos a que interrupciones hacemos caso
+1 - teclado
+2 - timer
+3 - telclado y timer
+
+IRQSTATUS - solo de lectura
+
+
+
+OUT 0 - IRQMASK
+
+
